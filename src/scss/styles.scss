@@ -1,0 +1,30 @@
+@font-face {
+	font-family: 'Quicksand-Regular';
+    src: url('../fonts/Quicksand-Regular.woff') format('woff');
+    src: url('../fonts/Quicksand-Regular.ttf') format('truetype');
+    src: url('../fonts/Quicksand-Regular.svg') format('svg');
+    font-weight: normal;
+	font-style: normal;  
+}
+
+@font-face {
+	font-family: 'Montserrat-Regular';
+    src: url('../fonts/Montserrat-Regular.woff') format('woff');
+    src: url('../fonts/Montserrat-Regular.ttf') format('truetype');
+    src: url('../fonts/Montserrat-Regular.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+.container.logo p {
+    color: red;
+}
+
+.container {
+    min-width: 100%;
+    font-family: 'Quicksand-Regular', sans-serif;
+    font-size: 40px;
+}
+.logo {
+    text-align: right;
+}
