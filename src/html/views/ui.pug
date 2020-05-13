@@ -5,29 +5,45 @@ html(lang="ru")
         meta(name="viewport", content="width=device-width, initial-scale=1.0")
         title UI Kit
     body
-        .container
+        .colors_and_type
             img(src="../src/img/l_icon.svg", class="toxin_logo")
-            .block
-            ul.list 
-                li 
-                    img(src="../src/img/Rect1.png")
-                    |        Dark Shade 100% #1F2041
-                    
-                li
-                    img(src="../src/img/Rect2.png")
-                    |    Dark Shade 75% #1F2041
-                li
-                    img(src="../src/img/Rect3.png")
-                    |    Dark Shade 50% #1F2041
-                li 
-                    img(src="../src/img/Rect4.png")
-                    |Dark Shade 25% #1F2041
-                li 
-                    img(src="../src/img/Rect5.png")
-                    |Dark Shade 5% #1F2041
-                li 
-                    img(src="../src/img/Rect6.png")
-                    |Purple #BC9CFF
-                li 
-                    img(src="../src/img/Rect7.png")
-                    |Green #6FCF97
+            .container
+                .col1
+                    .list   
+                        .p1 
+                            img(src="../src/img/Rect1.png", class="list-img")
+                            .color 
+                                p Dark Shade 100% #1F2041
+                        .p1 
+                            img(src="../src/img/Rect2.png", class="list-img")
+                            .color
+                                p Dark Shade 75% #1F2041
+                        .p1       
+                            img(src="../src/img/Rect3.png", class="list-img")
+                            .color
+                                p Dark Shade 50% #1F2041
+                        .p1
+                            img(src="../src/img/Rect4.png", class="list-img")
+                            .color
+                                p Dark Shade 25% #1F2041
+                        .p1
+                            img(src="../src/img/Rect5.png", class="list-img")
+                            .color
+                                p Dark Shade 5% #1F2041 
+                        .p1
+                            img(src="../src/img/Rect6.png", class="list-img")
+                            .color2 
+                                p Purple #BC9CFF
+                        .p1
+                            img(src="../src/img/Rect7.png", class="list-img")
+                            .color2
+                                p Green #6FCF97
+                .col2
+                    h1 H1
+                        span This one is the sub-section or widget title
+                    h2 H2
+                        span Next one is the item title inside widgets
+                    h3 H3
+                        span This is a label or CTA text
+                    p Body
+                        span This is the body text which is used for most of the design, like paragraphs, lists, etc.
