@@ -1,3 +1,4 @@
+include components/textfield/textfield.pug
 <!DOCTYPE html>
 html(lang="ru")
     head
@@ -47,3 +48,13 @@ html(lang="ru")
                         span This is a label or CTA text
                     p Body
                         span This is the body text which is used for most of the design, like paragraphs, lists, etc.
+        .form_elements
+            img(src="../src/img/l_icon.svg", class="toxin_logo")
+            .container_form
+                .form-col1
+                    .form-col1__tf1
+                        +textfield('TEXT FIELD', 'text', 'Email')
+                    .form-col1_tf2
+                        +textfield('TEXT FIELD', 'text', 'This is pretty awesome')
+                .form-col2
+                .form-col3

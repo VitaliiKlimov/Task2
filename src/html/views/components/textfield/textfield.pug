@@ -1,0 +1,6 @@
+mixin textfield(text, type, value)
+    .text-field
+        form(action="#", method="get")
+            .text-field__text #{text}
+            .text-field__input
+                input(type=type value=value class='inputform')
