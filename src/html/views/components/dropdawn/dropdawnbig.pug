@@ -1,0 +1,8 @@
+mixin dropdawnbig(text, type, value)
+    .dropdawnbig
+        form(action="#", method="get")
+            .dropdawnbig__text #{text}
+            .dropdawnbig__input
+                input(id='input' type=type placeholder=value class='inputform')
+                button(id='expand' type=button class=ddbutton)
+                    img(src='../src/html/views/components/dropdawn/expand_more.png')
